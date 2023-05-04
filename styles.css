@@ -1,0 +1,95 @@
+.container-fluid {
+  padding: 0.5rem 5rem 0.5rem 5rem;
+}
+
+.navbar {
+  background-color: #3f3f46;
+}
+
+.main-img {
+  width: 100%;
+  height: auto;
+}
+
+/*main img*/
+.container-text-btn {
+  display: none;
+}
+
+.container-text-btn h1,
+.container-text-btn p {
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  .container-text-btn {
+    display: block;
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container-text-btn {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container-text-btn {
+    padding-left: 40rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container-text-btn {
+    padding-left: 70rem;
+  }
+}
+
+/*cards*/
+.container-cards {
+  padding: 0 250px;
+  margin-bottom: 50px;
+}
+
+.card-text-title {
+  text-transform: uppercase;
+  text-align: center;
+  width: 200px;
+  font-size: 10px;
+  margin: 0 auto;
+}
+
+.card-text-title span {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+/*Main*/
+@media (min-width: 768px) {
+  .main-img {
+    width: 50%;
+    height: auto;
+  }
+
+  .bg-dark {
+    width: 50%;
+  }
+}
+
+/*form*/
+.form {
+  padding: 0 30%;
+}
+
+@media (max-width: 768px) {
+  .form {
+    padding: 0 5%;
+  }
+}
+
+.footer-nav {
+  background-color: #183f59;
+}
