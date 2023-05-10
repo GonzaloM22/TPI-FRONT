@@ -23,7 +23,7 @@
       <div class="container-fluid justify-content-md-between">
         <div>
           <img src="./img/codoacodo.png" alt="logo" width="100" />
-          <a class="navbar-brand text-white" href="#">Conf Bs Aa</a>
+          <a class="navbar-brand text-white" href="#">Conf Bs As</a>
         </div>
         <div>
           <button
@@ -83,7 +83,7 @@
       </div>
     </nav>
 
-    <div class="container-img position-relative mb-">
+    <div class="container-img position-relative mb-3">
       <img
         src="./img/ba1.jpg"
         class="object-fit-cover img-fluid main-img w-100"
@@ -114,7 +114,7 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="container mb-5">
       <h1 class="card-text-title mb-3">conoce a los <span>oradores</span></h1>
       <div class="row">
         <div class="col-sm-4">
@@ -124,7 +124,16 @@
               src="/img/steve.jpg"
               alt="steve"
             />
+
             <div class="card-body">
+              <div class="d-flex gap-2">
+                <span class="bg-warning rounded-3 fw-bold text-span"
+                  >Javascript</span
+                >
+                <span class="bg-info rounded-3 fw-bold text-span text-white"
+                  >React</span
+                >
+              </div>
               <h5 class="card-title">Steve Jobs</h5>
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
@@ -140,6 +149,14 @@
           <div class="card">
             <img class="card-img-top" src="/img/bill.jpg" alt="bill" />
             <div class="card-body">
+              <div class="d-flex gap-2">
+                <span class="bg-warning rounded-3 fw-bold text-span"
+                  >Javascript</span
+                >
+                <span class="bg-info rounded-3 fw-bold text-span text-white"
+                  >React</span
+                >
+              </div>
               <h5 class="card-title">Bill Gates</h5>
               <p class="card-text">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -155,6 +172,15 @@
           <div class="card">
             <img class="card-img-top" src="/img/ada.jpeg" alt="ada" />
             <div class="card-body">
+              <div class="d-flex gap-2">
+                <span
+                  class="bg-dark-subtle rounded-3 fw-bold text-span text-white"
+                  >Negocios</span
+                >
+                <span class="bg-danger rounded-3 fw-bold text-span text-white"
+                  >Startups</span
+                >
+              </div>
               <h5 class="card-title">Ada Lovelace</h5>
               <p class="card-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -191,53 +217,79 @@
       </div>
     </div>
 
-    <form action="" class="form mb-4">
+    <form class="form mb-4">
       <h1 class="card-text-title mb-3">
-        conviertete en un <span>orador</span>
+        conviértete en un <span>orador</span>
       </h1>
-      <p>
-        Anótate como orador para dar una charla ignite. Cuenta de qué quieres
-        hablar!
+      <p class="text-center">
+        Anótate como orador para dar una
+        <span class="text-decoration-underline">charla ignite</span>. Cuéntanos
+        de qué quieres hablar!
       </p>
       <div class="d-flex mb-3">
-        <input type="text" placeholder="Nombre" class="w-100 me-4" />
-        <input type="text" placeholder="Apellido" class="w-100" />
+        <input
+          type="text"
+          placeholder="Nombre"
+          class="w-100 me-4 rounded-1 border-1"
+        />
+        <input
+          type="text"
+          placeholder="Apellido"
+          class="w-100 rounded-1 border-1"
+        />
       </div>
       <textarea
         name=""
         id=""
-        cols="30"
-        rows="10"
+        cols="5"
+        rows="3"
         placeholder="Sobre qué quieres hablar?"
-        class="w-100"
+        class="w-100 rounded-1 border-1 p-sm-3"
       ></textarea>
-      <button type="button" class="btn btn-success w-100">Enviar</button>
+      <p class="font-size-14">Recuerda incluir un titulo para tu charla</p>
+      <button type="button" class="btn btn-success opacity-75 w-100 text-white">
+        Enviar
+      </button>
     </form>
-    <footer>
+    <footer class="footer">
       <nav class="navbar navbar-expand-lg footer-nav">
-        <div class="container-fluid justify-content-center">
-          <ul class="navbar-nav">
+        <div class="container-fluid justify-content-around">
+          <ul class="navbar-nav align-items-center">
             <li class="nav-item">
-              <a class="nav-link text-white" aria-current="page" href="#"
-                >La conferencia</a
+              <a class="nav-link text-white w-md" aria-current="page" href="#"
+                >Preguntas frecuentes</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#" role="button"
+                >Contáctnos</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#">Los oradores</a>
+              <a class="nav-link text-white" href="#" role="button">Prensa</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#" role="button"
-                >El lugar y la fecha</a
+              <a class="nav-link text-success text-white" href="#" role="button"
+                >Conferencias</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#" role="button"
-                >Conviertete en orador</a
+              <a
+                class="nav-link text-success text-white w-md"
+                href="#"
+                role="button"
+                >Términos y condiciones</a
               >
             </li>
             <li class="nav-item">
               <a class="nav-link text-success text-white" href="#" role="button"
-                >Comprar tickets</a
+                >Privacidad</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success text-white" href="#" role="button"
+                >Estudiantes</a
               >
             </li>
           </ul>
